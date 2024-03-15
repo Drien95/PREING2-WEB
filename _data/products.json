@@ -1,0 +1,82 @@
+[
+    {
+        "id": "ni1",
+        "categorie": "nike",
+        "quantite": "28",
+        "nom": "airforce",
+        "prix": "120",
+        "image": "..\/images\/air-force-1.jpeg"
+    },
+    {
+        "id": "ni2",
+        "categorie": "nike",
+        "quantite": "4",
+        "nom": "airforce",
+        "prix": "120",
+        "image": "..\/images\/air-force-1.jpeg"
+    },
+    {
+        "id": "ad2",
+        "categorie": "adidas",
+        "quantite": "37",
+        "nom": "focus",
+        "prix": "150",
+        "image": "..\/images\/air-force-1.jpeg"
+    },
+    {
+        "id": "dd1",
+        "categorie": "ddd",
+        "quantite": "44",
+        "nom": "ddd",
+        "prix": "44",
+        "image": "..\/images\/air-force-1.jpeg"
+    },
+    {
+        "id": "ff1",
+        "categorie": "ffggfh",
+        "quantite": "50",
+        "nom": "jjj",
+        "prix": "150",
+        "image": "..\/images\/img3.jpg"
+    },
+    {
+        "id": "ff2",
+        "categorie": "ffggfh",
+        "quantite": "50",
+        "nom": "jjj",
+        "prix": "150",
+        "image": "..\/images\/img2.jpg"
+    },
+    {
+        "id": "ff3",
+        "categorie": "ffggfh",
+        "quantite": "50",
+        "nom": "jjj",
+        "prix": "150",
+        "image": "..\/images\/img1.jpg"
+    },
+    {
+        "id": "pu1",
+        "categorie": "puma",
+        "quantite": "-76",
+        "nom": "claw",
+        "prix": "150",
+        "image": "..\/images\/img2.jpg"
+    },
+    {
+        "id": "pu2",
+        "categorie": "puma",
+        "quantite": "44",
+        "nom": "vv",
+        "prix": "45",
+        "image": "..\/images\/img1.png"
+    },
+    {
+        "id": "pu3",
+        "categorie": "puma",
+        "quantite": "44",
+        "nom": "vv",
+        "prix": "45",
+        "image": "..\/images\/img1.png"
+    }
+]

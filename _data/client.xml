@@ -1,0 +1,14 @@
+<users>
+    <user>
+        <name>admin</name>
+        <pwd>admin</pwd>
+        <id>1</id>
+        <admin>1</admin>
+    </user>
+    <user>
+        <name>a</name>
+        <pwd>a</pwd>
+        <id>2</id>
+        <admin>0</admin>
+    </user>
+</users>
