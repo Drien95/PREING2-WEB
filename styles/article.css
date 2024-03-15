@@ -1,0 +1,85 @@
+.container-ajout-article{
+    width: 200px;
+    height: auto;
+    background-color: black;
+}
+.container-ajout-article .sub-container-ajout-article{
+    background-color: blue;
+    width: 100%;
+}
+.container-ajout-article .sub-container-ajout-article input{
+    margin: 5px;
+    padding: 3px;
+    width: 180px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container-ajout-article .sub-container-ajout-article button{
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.article{
+    display:flex;
+    justify-content: center;
+}
+.article .table-article{
+    width: 90%;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px black solid;
+    border-collapse:separate;
+    border-spacing:0 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+  background: #191919;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card a{
+    text-decoration: none;
+}
+.card .imgbox{
+    position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+.card .contentBox{
+    position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.card .contentBox h2{
+    color: rgba(167, 158, 158, 0.87);
+}
+.card .contentBox h5{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card .contentBox .priceContentBoxCard{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sneakersImg{
+    height: 300px;
+  width: auto;
+}

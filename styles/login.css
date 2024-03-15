@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: fff;
+    font-family: 'Roboto', sans-serif;
+    background-color: rosybrown;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.submit-but{
+    text-align: center;
+}
+form{
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 10%;
+    padding: 40px 60px;
+    border-radius: 5px;
+    min-width: 300px;
+    box-shadow: 50px 20px 20px grey;
+    height: 350px;
+}
+form h1{
+    color: aqua;
+    text-align: center;
+}
+form .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form .social-media p{
+    padding: 10px;
+    cursor: pointer;
+}
+form .input-grp{
+    display: flex;
+    flex-direction: column;
+}
+form .input-grp input{
+    padding: 10px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 2%;
+}
+form .log{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form .log-but{
+    padding: 10px 80px;
+    /* background-color: aqua; */
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+form .log-but:active{
+    background-color: #B7FC6E;
+}
+.forgot{
+    text-align: end;
+    color: black;
+    margin-right: 10px;
+}
+form .other-co{
+    margin-top: 10%;
+    width: auto;
+}
+form .other-co .log-o{
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+form .other-co .log-o:active{
+    background-color: #EFE9E8;
+}

@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+main{
+    min-height: 837px;
+    display: flex;
+    background-color: azure;
+}
+/* Partie gauche du main qui englobe la barre de nav_gauche*/
+main .left-nav-wrapper{
+    position: sticky;
+    float: left;
+    top:100px;
+    left: 0;
+    overflow-y: scroll;
+    /* border: 1px solid yellow; */
+    background-color: darkgoldenrod;
+    width: 240px;
+    height: 837px;
+    min-height: 200px;
+    flex-wrap: wrap;
+}
+/* -------------------- */
+/* SCROLLBAR NAV__LEFT */
+/* -------------------*/
+/* scroller */
+main .left-nav-wrapper::-webkit-scrollbar{
+    background-color: transparent;
+    
+}
+/* thumb(bouton principale de la scrollbar) */
+main .left-nav-wrapper::-webkit-scrollbar-thumb{
+    background: #C1B1AE;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+/* --------------- */
+/* Partie central du main */
+main .center{
+    background-color: aqua;
+    /* border: 1px solid black; */
+    width: 100%;
+    min-height: 200px;
+}
+
+/* ------------------------------------ */
+/* WRAPPER_NAV__LEFT(partie gauche nav)*/
+/* ---------------------------------- */
+main .left-nav-wrapper .left-nav{
+    padding-top: 1rem;
+    padding-left: 40px;
+    word-wrap: break-word;
+}
+/* Premiere catégorie de la barre de navigation gauche */
+main .left-nav-wrapper .left-nav .left-nav__categories{
+    display: grid;
+    grid-gap: 5px;
+    padding-bottom: 3vh;
+}
+main .left-nav-wrapper .left-nav .left-nav__filters .filter-group{
+    border-top: 1px solid black;
+    padding-bottom: 10px;
+}
+main .left-nav-wrapper .left-nav .left-nav__filters .filter-group .inline-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 12px 0px;
+    cursor: pointer;
+}
+/* main .left-nav-wrapper .left-nav .left-nav__filters .filter-group  .inline-block .redirection-button{
+} */
+.icone{
+    text-align: end;
+    padding-right: 5px;
+}
+.filter-group .filter-group__content{
+    padding-bottom: 10px;
+}
+.filter-group .filter-group__content .button-filter-group__check{
+    background: transparent;
+    border: 0px;
+    padding: 2px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-group .filter-group__content .button-filter-group__check .gender{
+    padding-left: 10px;
+}
+.filter-group .filter-group__content .button-filter-group__check input[type="checkbox"]{
+   appearance: none;
+   -webkit-appearance: none;
+   height: 20px;
+   width: 20px;
+   background-color: gray;
+   border: 1px solid black;
+   border-radius: 5px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.filter-group .filter-group__content .button-filter-group__check input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    display: none;
+}
+.filter-group .filter-group__content .button-filter-group__check input[type="checkbox"]:checked:after{
+    display: block;  
+}
+/* Prix */
+.filter-group .price-input .flex{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+.filter-group .price-input .field__price input{
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+/* Prix */
+.filter-group .filter-size{
+    padding: 7px 0px;
+}
+.filter-group .filter-size .flex-size{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-group .filter-size .flex-size .button__size{
+    height: 36px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 1px 4px;
+    background: transparent;
+    flex:1 0 40px;
+    cursor: pointer;
+}
+
